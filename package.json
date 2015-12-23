@@ -1,0 +1,25 @@
+{
+  "name": "aligner-fsharp",
+  "main": "./lib/main",
+  "version": "1.0.1",
+  "description": "FSharp support for Aligner",
+  "keywords": [
+    "aligner",
+    "alignment",
+    "align",
+    "python"
+  ],
+  "repository": "https://github.com/DGXCampbell/atom-aligner-fsharp",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "providedServices": {
+    "aligner.provider": {
+      "versions": {
+        "1.0.0": "getProvider"
+      }
+    }
+  }
+}
